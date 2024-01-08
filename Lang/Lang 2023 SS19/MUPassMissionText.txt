@@ -1,0 +1,27 @@
+0			
+0	"Sử dụng Auto (Z) %s giây"	1	6259
+1	"Tiêu diệt %s quái vật"	1	6264
+2	"Sử dụng %s Mana"	1	6263
+3	"Sử dụng %s bình HP hoặc Mana"	1	6261
+4	"Sử dụng %s vật phẩm buff"	1	6261
+5	"Sửa chữa Tempest Muun %s lần"	1	6262
+6	"Sửa chữa vệ thần %s lần"	1	6262
+7	"Sửa chữa vật phẩm %s lần"	1	6262
+8	"Mua %s vật phẩm từ cửa hàng cá nhân"	1	6263
+9	"Kết bạn với %s người"	1	6262
+10	"Gửi %s thư cho bạn bè"	1	6262
+11	"Tăng %s cấp độ cho nhân vật"	1	6260
+12	"Phân giải vật phẩm %s lần"	1	6261
+13	"Chế tạo bình Soul %s lần"	1	6261
+14	"Hoàn thành Varka (Gaion)"	0	6265
+15	"Tích lũy 1 triệu dmg từ sự kiện Boss Battle"	0	6265
+16	"Tham gia Chaos Castle %s lần"	1	6262
+17	"Tham gia Blood Castle %s lần"	1	6262
+18	"Tham gia Devil's Square %s lần"	1	6262
+19	"Tìm và tiêu diệt phù thủy trắng"	0	6265
+20	"Chiến thắng sự kiện CryWolf"	0	6265
+21	"Tham gia sự kiện CryWolf"	0	6265
+22	"Use Three Vacancy Box for %s times"	1	6262
+23	"Đào ngọc %s lần"	1	6262
+24	"Nhặt %s ngọc Bless"	1	6261
+end

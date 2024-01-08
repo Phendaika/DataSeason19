@@ -1,0 +1,84 @@
+////////////////////////////////////////////////////////////////////////////////									
+// 	[Text Ver]	0.0.2.8							
+//	[작업자]	박혜진							
+//	[작업일]	2016-07-27 05:24 pm							
+//	[작업 내용]	닉시스 호수 이동명령창 추가							
+////////////////////////////////////////////////////////////////////////////////									
+// 서버용 파일은 로랜협곡 주석을 제외하고 클라이언트용 파일은 로랜협곡 주석처리 해야함									
+// 로랜협곡의 순서는 변경 불가능 (24번째 반드시 유지)									
+//MaxLevel 추가. MinLevel은 최소입장 가능 레벨, MaxLevel은 최대 입장 가능 레벨이다.									
+//index	Movename(kor)	Movename(eng)	Zen	MinLevel	MaxLevel	GateNumber	난이도정렬순서	가나다정렬순서	몬스터 구분
+1	"Arena"	"Arena"	2000	1	-1	50	0	0	-1
+90	"Silent"	"Silent"	50000	400	-1	901	0	0	-1											
+48	"Event Square"	"Eventmap_square"	20000	1	-1	503	1	46	-1
+44	"Loren Market"	"Loren_Market"	10000	1	-1	333	2	17	-1
+2	"Lorencia"	"Lorencia"	2000	1	-1	17	3	16	7
+3	"Noria"	"Noria"	2000	1	-1	27	4	6	32
+31	"Elbeland"	"Elbeland"	2000	1	-1	267	9	41	418
+32	"Elbeland 2"	"Elbeland2"	2500	10	-1	268	10	42	422
+43	"Elbeland 3"	"Elbeland3"	3000	10	-1	269	11	43	425
+4	"Devias"	"Devias"	2000	10	-1	22	5	11	24
+5	"Devias 2"	"Devias2"	2500	10	-1	72	6	12	19
+6	"Devias 3"	"Devias3"	3000	10	-1	73	7	13	20
+7	"Devias 4"	"Devias4"	3500	10	-1	74	8	14	20
+8	"Dungeon"	"Dungeon"	3000	30	-1	2	12	8	11
+9	"Dungeon 2"	"Dungeon2"	3500	40	-1	6	13	9	13
+10	"Dungeon 3"	"Dungeon3"	4000	40	-1	10	14	10	8
+11	"Atlans"	"Atlans"	4000	50	-1	49	15	34	45
+12	"Atlans 2"	"Atlans2"	4500	80	-1	75	23	38	52
+13	"Atlans 3"	"Atlans3"	5000	90	-1	76	24	39	48
+14	"LostTower"		"LostTower"		5000	50	-1	42	16	19	39
+15	"LostTower 2"	"LostTower2"	5500	50	-1	31	17	20	34
+16	"LostTower 3"	"LostTower3"	6000	50	-1	33	18	21	41
+17	"LostTower 4"	"LostTower4"	6500	50	-1	35	19	22	37
+18	"LostTower 5"	"LostTower5"	7000	50	-1	37	20	23	40
+19	"LostTower 6"	"LostTower6"	7500	70	-1	39	21	24	35
+20	"LostTower 7"	"LostTower7"	8000	70	-1	41	22	25	35
+21	"Tarkan"	"Tarkan"	8000	140	-1	57	25	65	57
+22	"Tarkan 2"	"Tarkan2"	8500	140	-1	77	28	66	61
+50	"Ferea"	"Ferea"	50000	400	-1	509	40	67	730
+25	"Aida"	"Aida1"	8500	150	-1	119	26	31	306
+26	"Crywolf"	"Crywolf"	0	10	-1	118	56	58	-1
+91	"Barracks"	"Barracks"	100000	400	-1	902	0	0	-1			
+92	"Refuge"	"Refuge"	100000	400	-1	903	0	0	-1																										
+27	"Aida 2"	"Aida2"	8500	380	-1	140	37	32	550
+23	"Icarus"	"Icarus"	10000	160	-1	63	29	47	70
+28	"Kanturu Ruins"	"Kanturu_ruin1"	9000	160	-1	138	27	51	353
+29	"Kanturu Ruins 2"	"Kanturu_ruin2"	9000	160	-1	141	30	52	350
+45	"Kanturu Ruins Island"	"Kanturu_ruin_island"	15000	380	-1	334	38	53	556
+30	"Kanturu Remain"	"Kanturu_Remain"	12000	300	-1	139	33	50	360
+46	"Karutan"	"Karutan1"	13000	280	-1	335	31	54	574
+47	"Karutan 2"	"Karutan2"	14000	380	-1	344	36	55	576
+34	"Raklion"	"Raklion"	15000	380	-1	287	39	15	458
+51	"Nixies Lake"	"Nixies Lake"	50000	630	-1	522	41	7	744
+66	"Old Kethotum"	"old Kethotum"	50000	700	-1	648	42	44	893
+33	"Swamp of Calmness"	"Swamp_of_Calmness"	15000	380	-1	273	35	68	449
+49	"Akeron"	"Akeron"	50000	300	-1	417	34	33	591
+42	"Vulcanus"	"Vulcanus"	15000	300	-1	294	32	26	490
+24	"Loren Deep"	"LorenDeep"	0	10	-1	104	56	18	-1
+52	"Deep Dungeon 1"	"R-Dungeon1"	50000	770	-1	561	43	1	767
+53	"Deep Dungeon 2"	"R-Dungeon2"	50000	770	-1	562	44	2	772
+54	"Deep Dungeon 3"	"R-Dungeon3"	50000	770	-1	563	45	3	773
+55	"Deep Dungeon 4"	"R-Dungeon4"	50000	770	-1	564	46	4	769
+56	"Deep Dungeon 5"	"R-Dungeon5"	50000	770	-1	565	47	5	777
+57	"Swamp of Darkness"	"SwampOfDarkness"	50000	800	-1	567	48	40	788
+58	"Kubera Mine"	"KuberaMine"	50000	850	-1	591	58	63	810
+59	"Abyss of Atlans"	"abyss_Atlans1"	50000	1000	-1	617	59	35	832
+60	"Abyss of Atlans 2"	"abyss_Atlans2"	50000	1020	-1	618	60	36	834
+61	"Abyss of Atlans 3"	"abyss_Atlans3"	50000	1030	-1	619	61	37	836
+62	"Scorched Canyon"	"Scorched Canyon"	50000	1050	-1	620	62	29	846
+63	"Red Smoke Icarus"	"Red Smoke Icarus"	50000	1070	-1	631	63	69	861
+64	"Arenil Temple"	"Arenil Temple"	50000	1100	-1	634	64	30	867
+65	"Ashen Aida"	"Ashen Aida"	50000	1130	-1	643	65	48	875
+67	"Blaze Kethotum"	"Blaze Kethotum"	50000	1160	-1	659	66	27	896																	
+68	"Kanturu Undergrounds"	"Kanturu Undergrounds"	50000	1190	-1	670	67	49	905
+69	"Ignis Volcano"	"Ignis Volcano"	50000	1220	-1	675	68	45	911																	
+70	"Bloody Tarkan"	"Blood Tarkan"	50000	1250	-1	682	69	28	926
+71	"Tormenta Island"	"Tormenta Island"	50000	1280	-1	694	70	66	942
+//35	"Kalima 1"	"Kalima1"	0	40	-1	88	49	56	160
+//36	"Kalima 2"	"Kalima2"	0	131	-1	89	50	57	180
+//37	"Kalima 3"	"Kalima3"	0	181	-1	90	51	58	188
+//38	"Kalima 4"	"Kalima4"	0	231	-1	91	52	59	196
+//39	"Kalima 5"	"Kalima5"	0	281	-1	92	53	60	266
+//40	"Kalima 6"	"Kalima6"	0	331	-1	93	54	61	274
+//41	"Kalima 7"	"Kalima7"	0	350	-1	116	55	62	337

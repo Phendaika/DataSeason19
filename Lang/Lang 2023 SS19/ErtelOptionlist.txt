@@ -1,0 +1,11 @@
+0	"Tăng Tấn Công nguyên tố"	0
+1	"Tăng %s mục tiêu Tấn Công nguyên tố "	0
+2	"Tăng Tấn công (PvP)"	0
+3	"Tăng Tấn công (PvM)"	0
+4	"Tăng Phòng thủ nguyên tố"	0
+5	"Tăng %s mục tiêu Phòng thủ nguyên tố "	0
+6	"Tăng Phòng thủ nguyên tố (PvP)"	0
+7	"Tăng Phòng thủ nguyên tố (PvM)"	0
+8	"Tăng tỷ lệ chính xác khi tấn công"	0
+9	"Tăng tỷ lệ né tránh khi tấn công "	0
+end		

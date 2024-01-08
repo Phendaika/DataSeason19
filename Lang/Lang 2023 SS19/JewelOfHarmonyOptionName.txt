@@ -1,0 +1,52 @@
+1	
+1	"Tăng Sức Mạnh"	6	15	29	30	1							
+2	"Tang Nhanh Nhẹn"	6	15	29	30	1							
+3	"Tăng Năng Lượng"	6	15	29	30	1							
+4	"Tăng Tấn Công Chính Xác"	179	299	499	500	1							
+5	"Tăng Sức Tấn Công"	8	20	39	40	1							
+6	"Tăng Sát Thương Chí Mạng"	8	20	39	40	1							
+7	"Tăng Sát Thương Hoàn Hảo"	8	20	39	40	1							
+8	"Tăng Sát Thương Tuyệt Chiêu"	7	17	34	35	1							
+9	"Tăng Độ Bền"	6	15	29	30	1							
+10	"Tăng Tỷ lệ Giảm SD"	2	5	9	10	2							
+11	"Chuyển 5% Mana sang Tấn Công"	9	22	44	45	1							
+end													
+2	
+1	"Tăng Sức Mạnh"	6	15	29	30	1							
+2	"Tăng Nhanh Nhẹn"	6	15	29	30	1							
+3	"Tăng Năng Lượng"	6	15	29	30	1							
+4	"Tăng Tỷ lệ Tấn Công Chính Xác"	179	299	499	500	1							
+5	"Tăng Phép Thuật"	19	42	79	80	1							
+6	"Tăng Sát Thương Chí Mạng"	8	20	39	40	1							
+7	"Tăng Sát Thương Hoàn Hảo"	8	20	39	40	1							
+8	"Tăng Sát Thương Tuyệt Chiêu"	7	17	34	35	1							
+9	"Tăng Độ Bền"	6	15	29	30	1							
+10	"Tăng Tỷ lệ Giảm SD"	2	5	9	10	2							
+11	"Chuyển 5% Mana sang Phép Thuật"	20	44	84	85	1							
+end													
+3	
+1	"Tăng Thể Lực"	2	5	9	10	1							
+2	"Tăng Phòng Thủ"	10	25	49	50	1							
+4	"Tăng AG Tối Đa"	27	54	99	100	1							
+5	"Tăng HP Tối Đa"	27	54	99	100	1							
+6	"Tăng Mana Tối Đa"	27	54	99	100	1							
+7	"Tăng Tỷ lệ Hồi HP"	2	5	9	10	1							
+8	"Tăng Tỷ lệ Hồi Mana"	2	5	9	10	1							
+9	"Giảm Sát Thương"	10	25	49	50	1							
+10	"Tăng Độ Bền"	6	15	29	30	1							
+11	"Hấp Thụ Sát Thương Vào SD"	1	2	4	5	2							
+13	"Chuyển 10% Mana sang HP"	31	64	119	120	1							
+end													
+4	
+1	"Tăng Sức Mạnh"	6	15	29	30	1							
+2	"Tăng Nhanh Nhẹn"	6	15	29	30	1							
+3	"Tăng Năng Lượng"	6	15	29	30	1							
+4	"Tăng Tỷ lệ Tấn Công Chính Xác"	179	299	499	500	1							
+5	"Tăng Nguyen Rua"	8	20	39	40	1							
+6	"Tăng Sát Thương Chí Mạng"	8	20	39	40	1							
+7	"Tăng Sát Thương Hoàn Hảo"	8	20	39	40	1							
+8	"Tăng Sát Thương Tuyệt Chiêu"	7	17	34	35	1							
+9	"Tăng Độ Bền"	6	15	29	30	1							
+10	"Tăng Tỷ lệ Giảm SD"	2	5	9	10	2							
+11	"Chuyển 5% Mana sang Nguyền rủa"	9	22	44	45	1							
+end													

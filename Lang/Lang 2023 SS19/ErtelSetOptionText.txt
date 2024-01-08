@@ -1,0 +1,11 @@
+0	"Sát thương thuộc tính tăng %d"	0
+1	"Phòng thủ thuộc tính tăng %d"	0
+2	"Sát thương tối đa tăng %d"	0
+3	"Phòng thủ tăng %d"	0
+4	"Phòng thủ thuộc tính cơ bản tăng %d"	0
+5	"Sát thương thuộc tính tăng %d"	0
+6	"Sát thương tăng %d"	0
+7	"Sát thương phép tăng %d"	0
+8	"Sát thương vật lý và phép thuật tăng %d"	0
+9	"Sát thương phép và nguyền rủa tăng %d"	0
+end		

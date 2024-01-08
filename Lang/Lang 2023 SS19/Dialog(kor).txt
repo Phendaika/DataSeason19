@@ -1,0 +1,199 @@
+////////////////////////////////////////////////////////////////////////////////////////////																	
+// Text Ver. 0.0.0.7		T 퀘스트 창 2번째 탭 전직관련 대사															
+// Version 0.0.0.3  - T서버		전직 퀘스트															
+// Version 0.0.0.3  - M서버		서버 패킷 (일본에서 사용중)		0xf3 0x40 (cmd 5) // 서버에서 오는 텍스트 번호이다.													
+// 최종 작업일: 2016-07-19 7:13 PM																	
+// 최종 작업자: 박혜진																	
+// 내용 : 클라이언트 패킹 작업으로 인한 스크립트 구조 수정																	
+////////////////////////////////////////////////////////////////////////////////////////////																	
+// 답변(클릭) 구문 형식 																	
+// 타겟구문번호/구분자																	
+// 구분자 분류																	
+// -1 : [대사진행] 대상 구분으로 넘어감. 서버에 알리지 않음																	
+// 1 : [수락] 대상 구문으로 넘어감. 수락 했음을 서버에 알림																	
+// 2 : [거절] 대상 구문 미지정(동일 구분 번호). 거절 했음을 서버에 알림																	
+// 3 : [완료] 대상 구문 미지정(동일 구분 번호). 완료 했음을 서버에 알림																	
+////////////////////////////////////////////////////////////////////////////////////////////																	
+//		구분자1			구분자2			구분자3			구분자4						
+//텍스트 번호	eng	링크 텍스트 번호	구분자	eng	링크 텍스트 번호	구분자	eng	링크 텍스트 번호	구분자	eng	링크 텍스트 번호	구분자	구분자 텍스트				
+101	This is not something you can accomplish with average skills. Come back once you've trained some more.	101	2	Kết thúc													
+1	Hi! I'm Mage Pasi. Hahaha. Well... The movements of the stars don't look good. Your future... Haha. I can't see your future clearly. I wonder why...?																
+2	Hello. I'm a warehouse keeper, and I take care of your stuff. My name is Baz. I can help you wherever you go. You can leave your stuff with me!																
+3	I hear that fatigued adventurers recover when they listen to the tunes of the wind harp. Do you need my help?																
+4	I'm a warehouse keeper, and I take care of your stuff. My name is Baz. I can help you wherever you go. You can leave your stuff with me!																
+5	Do you have enough Zen? I can't help you combine items if you don't have enough Zen. Zen is needed for research, you see. Hm? You want to know how much Zen you need?																
+// 일본 버전용																	
+6	Is it your first time in MU? Press the F1 key. You'll find helpful tips about traveling in MU.																
+7	Is it your first time in Lorencia? If it is, go through the southeast entrance near the fountain, and hunt some Budge Dragons or Spiders. The Skeleton Warriors in the northwest hunting zone are too dangerous.																
+8	Welcome to Noria. If it's your first time hunting here, go through the west entrance past the Warehouse Keeper, and hunt some Chain Scorpions or Goblins.																
+9	If you need a detailed guide about MU, check out www.muonline.jp.																
+//1차 전직 퀘스트 텍스트																	
+50	Bạn đã từng nghe về Muren Reksmilon, người trở thành hoàng đế đầu tiên của MU sau khi đánh bại Sekneum và thống nhất lục địa? Có tin đồn rằng 'Scroll of the Emperor', nơi ghi lại câu chuyện này, đã được tìm thấy.	74	-1	Tiếp tục													
+74	Thần ánh sáng, Rugard, đã giao cho bạn sứ mệnh tìm ra 'Scroll of the Emperor'. Tuy nhiên, có vẻ như bạn vẫn chưa đủ trình độ. Hãy trở lại khi bạn mạnh mẽ hơn.	74	2	Kết thúc													
+51	Bạn không có đủ tiền. Bạn phải cung cấp 1 triệu Zen cho Rugard nếu bạn muốn nhận nhiệm vụ này.	51	2	Kết thúc													
+52	Bạn đã từng nghe về Muren Reksmilon, người trở thành hoàng đế đầu tiên của MU sau khi đánh bại Sekneum và thống nhất lục địa? Có tin đồn rằng 'Scroll of the Emperor', nơi ghi lại câu chuyện này, đã được tìm thấy.	75	-1	Tiếp tục													
+75	'Scroll of the Emperor' có ghi lại những kho báu mà ba anh hùng của Cuộc chiến Thần thánh để lại, bao gồm cả chính Muren. Thần ánh sáng, Rugard, đã giao cho bạn sứ mệnh tìm ra 'Scroll of Emperor'. 	53	-1	Tiếp tục													
+53	Bạn phải cung cấp 1 triệu Zen cho Rugard nếu bạn muốn nhận nhiệm vụ này. Bạn có muốn Đồng ý làm nhiệm vụ và tìm 'Scroll of the Emperor' không?                                                                                  	52	-1	Nghe lại	54	1	Đồng ý	53	2	Hủy							
+54	Theo tin đồn, 'Scroll of the Emperor' có thể được tìm thấy trong Dungeon, Lost Tower hoặc Atlans.  	54	2	Kết thúc													
+55	Bạn đã tìm thấy 'Scroll of the Emperor'. Nó phải chứa thông tin về những kho báu mà ba anh hùng của Cuộc chiến Thần thánh đã để lại.	55	3	Kiểm tra.													
+56	(Nó chứa đựng những ghi chép lịch sử về vị hoàng đế đầu tiên của lục địa, Muren, cũng như những gì đã xảy ra trong Lễ hội Hòa bình kỷ niệm chiến thắng trong chiến tranh và thống nhất lục địa.) Muren Reksmilon thống nhất ba quốc gia Lorencia, Noria, và Arca thành một đế chế vĩ đại.	57	-1	Tiếp tục													
+57	Muren kết thúc Cuộc chiến Thần thánh với Đại pháp sư Etramu Renos của Arca và Nữ hoàng Elf của Noria Lunedill Diochell, và được tôn sùng như một anh hùng. 	56	-1	Quay lại	80	-1	Tiếp tục										
+80	Sau khi đế chế được thành lập và hòa bình đạt được, tất cả mọi người trong lục địa đều thề trung thành với hoàng đế, và họ đã dâng các kho báu như một vật chứng minh.	57	-1	Quay lại	58	-1	Tiếp tục										
+58	'Broken Sword', 'Tear of Elf' và 'Soul Shard of Wizard'. 'Broken Sword' được các Hiệp sĩ bóng đêm của Lorencia cung cấp như một biểu tượng cho lòng dũng cảm và lòng trung thành của họ; cầu chúc cho sự thịnh vượng của đế chế. 	57	-1	Quay lại	81	-1	Tiếp tục										
+81	'Tear of Elf' được Nữ hoàng Elf Lunedill Diochell đề nghị như một lời thề của cô ấy để củng cố sự thống nhất giữa yêu tinh và con người.	58	-1	Quay lại	59	-1	Tiếp tục										
+59	'Soul of the Mage' được Great Mage Etramu cung cấp như một biểu tượng cho lời thề cống hiến sức mạnh của mình cho hòa bình và tự do của đế chế.                                   Từ những ghi chép về Lễ hội Hòa bình được tổ chức vào năm thứ 10 của MU...	58	-1	Quay lại	59	2	Dừng đọc										
+60	Nếu bạn đọc xong 'Scroll of the Emperor', hãy đi tìm 'Broken Sword' đã được trao cho Muren bởi các Hiệp sĩ bóng đêm của Lorencia. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower, hoặc Tarkan.	61	1	Đồng ý	60	2	Hủy										
+61	Tôi biết bạn rất mạnh mẽ, nhưng hãy luôn cẩn thận, bởi vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Thanh kiếm bị hỏng', vui lòng mang nó lại cho tôi. 	61	2	Kết thúc													
+62	Bạn đã tìm thấy 'Thanh kiếm bị gãy'. 'Broken Sword' được cho là có nguồn gốc từ thanh kiếm của Muren, 'Apocalypse', thứ mà chính Muren đã phá vỡ sau khi thống nhất lục địa, với hy vọng rằng chiến tranh sẽ không bao giờ xảy ra nữa. 	76	-1	Tiếp tục													
+76	Các Hiệp sĩ bóng đêm của Lorencia cũng bẻ gươm của họ và dâng chúng cho Muren, thề rằng họ sẽ chỉ sử dụng kiếm khi thực sự cần thiết.	63	-1	Tiếp tục													
+63	Muren rất hài lòng và phong cho họ danh hiệu 'Hiệp sĩ kiếm'. Kể từ đó, các Hiệp sĩ bóng đêm muốn trở thành Hiệp sĩ bóng đêm bẻ gươm của họ để thể hiện ý chí của họ. 	79	-1	Tiếp tục													
+79	Bây giờ bạn đã tìm thấy 'Thanh kiếm bị gãy' và chứng minh được ý chí mạnh mẽ của mình, bạn sẽ được gọi là Hiệp sĩ kiếm.	79	3	Become Blade Knight													
+64	Bạn đã đọc 'Scroll of the Emperor'. Vậy bây giờ bạn đã biết ba bảo vật mà các anh hùng để lại là gì chưa?	77	-1	Tiếp tục													
+77	Đi tìm 'Tear of Elf' được cho là đã được tặng cho Muren bởi Nữ hoàng Elf Lunedill Diochell. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower, hoặc Tarkan.	65	1	Đồng ý	77	2	Hủy										
+65	Tôi biết bạn rất mạnh mẽ, nhưng hãy luôn cẩn thận, bởi vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Tear of Elf', hãy mang nó lại cho tôi. 	65	2	Kết thúc													
+66	Bạn đã tìm thấy 'Tear of Elf'. 'Tear of Elf' là giọt nước mắt kết tinh của một con yêu tinh, rơi xuống trong buổi lễ đón tuổi. Người được cung cấp cho Muren là Nữ hoàng nước mắt của Elf, Lunedill Diochell. 	78	-1	Tiếp tục													
+78	Bây giờ bạn có 'Tear of Elf' tượng trưng cho trái tim trong sáng, bạn sẽ được gọi là Muse Elf.	78	3	Trở thành Muse Elf													
+67	Bạn đã đọc 'Scroll of the Emperor'. Vậy bây giờ bạn đã biết ba bảo vật mà các anh hùng để lại là gì chưa?	82	-1	Tiếp tục													
+82	Đi tìm 'Linh hồn của Mage' mà Great Mage Etramu Renos đã tặng cho Muren. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower, hoặc Tarkan.	68	1	Đồng ý	82	2	Hủy										
+68	Tôi biết bạn rất mạnh mẽ, nhưng hãy luôn cẩn thận, bởi vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Soul of the Mage', hãy mang nó lại cho tôi.	68	2	Kết thúc													
+69	Bạn đã tìm thấy 'Linh hồn của Pháp sư'. 'Soul of the Mage' là một viên đá ma thuật tượng trưng cho tâm trí mạnh mẽ của một Dark Mage, và người ta nói rằng Etramu đã dâng nó cho Muren như một biểu tượng cho lời thề của anh ấy.	70	-1	Tiếp tục.													
+70	Bây giờ bạn có 'Soul of the Mage', tượng trưng cho tâm trí mạnh mẽ, bạn sẽ được gọi là Soul Master.	70	3	Become Soul Master													
+71	Tặng 2 triệu Zen cho Thần ánh sáng, Rugard. Anh ấy sẽ ban phước cho con đường phía trước của bạn.	71	2	Kết thúc													
+72	Tôi tôn trọng lòng dũng cảm của bạn và tôi sẽ ban cho bạn một sức mạnh mới. Cầu mong sự phù hộ của Rugard, Thần ánh sáng, ở bên bạn... 	72	2	Kết thúc													
+73	Bạn đã được lấp đầy bởi những lời chúc phúc của Rugard. Cầu mong anh ấy luôn ở bên bạn ngay cả trong gian nan thử thách.	73	2	Kết thúc													
+//캐릭터 마스터리 퀘스트 텍스트 (3,4차 전직)																	
+100	Tôi có vài điều muốn hỏi ở bạn ... Nhưng có vẻ như bạn chưa có khả năng thực hiện nó.	101	-1	Tiếp tục													
+101	Đây không phải là điều bạn có thể hoàn thành với kỹ năng trung bình. Hãy quay lại sau khi bạn đã luyện thêm một số bài.	101	2	Kết thúc													
+102	Tôi có một vài điều muốn hỏi bạn. Bạn có thể cho tôi mượn tai của bạn được không?	103	-1	Tiếp tục													
+103	Tôi muốn nhờ bạn tìm 'Ring of Glory' cho tôi. 'Ring of Glory' là di vật vĩ đại nhất; được Thần ánh sáng, Rugard, ban tặng cho những anh hùng đã chiến thắng trong cuộc chiến chống lại Sekneum. 	104	-1	Tiếp tục													
+104	Nếu chúng ta không tìm thấy 'Ring of Glory', điều gì đó tồi tệ có thể xảy ra với lục địa. Bạn có thể làm việc này nếu bạn có 3 triệu Zen. Bạn có muốn thử?	102	-1	Nghe lại	105	1	Đồng ý	104	2	Hủy							
+105	Từ thông tin tôi thu thập được, 'Ring of Glory' dường như gần hơn tôi nghĩ. Nó có thể ở xung quanh Atlans, Tarkan hoặc Icarus.	105	2	Kết thúc													
+108	Bạn đã tìm thấy 'Ring of Glory'! Tôi biết bạn có thể làm điều đó.	109	-1	Tiếp tục													
+109	Tôi đã nói với bạn điều này rồi, nhưng 'Ring of Glory' đã được Thần Ánh sáng, Rugard, trao cho các anh hùng của Cuộc chiến Thần thánh. Ngoài ba anh hùng mà chúng ta đã biết, còn có Kundun Mephis - Great Mage of Arca, và Gaion Kalein - Phó chỉ huy của Liên minh.	110	-1	Tiếp tục													
+110	Nhưng như bạn đã biết, Great Mage Kundun Mephis và Phó chỉ huy Gaion Kalein đã bị vấy bẩn bởi bóng tối, và 'Rings of Glory' của họ đã bị mất.	111	-1	Tiếp tục													
+111	'Ring of Glory' chứa đựng sức mạnh thiêng liêng của Rugard, vì vậy nếu Kundun sử dụng nó với mục đích xấu xa, nó chắc chắn sẽ rất thảm khốc. Đó là lý do tại sao những người bảo vệ của đế chế đã cố gắng rất nhiều để tìm kiếm 'Ring of Glory'.	112	-1	Tiếp tục													
+112	Chúng tôi rất nhẹ nhõm và biết ơn bạn vì đã mang về 'Ring of Glory'. Tôi đã gửi một báo cáo về màn trình diễn của bạn cho 'Mười hai môn đồ của ánh sáng', những người phục vụ Rugard.	112	3	Tiếp tục													
+113	Bạn sẽ được ban phước với sức mạnh của Rugard, và mỗi khi bạn lên cấp, bạn sẽ nhận được nhiều điểm chỉ số hơn. Xin chúc mừng!	113	2	Kết thúc													
+114	Cảm ơn vì đã giúp tôi. Tôi sẽ gặp lại bạn.	114	2	Kết thúc													
+115	Người ta nói rằng 'Dark Stone', thứ ban cho sức mạnh thực sự của một vị hoàng đế, đã được tìm thấy trong MU. Nhưng có vẻ như bạn vẫn chưa đủ kỹ năng để sử dụng sức mạnh đó. Vui lòng đợi cho đến khi bạn sẵn sàng sử dụng sức mạnh đó.	101	-1	Tôi sẽ trở lại khi mạnh mẽ hơn.													
+130	Bạn đã tìm thấy 'Ring of Glory'! Tôi biết bạn có thể làm điều đó!	131	-1	Tiếp tục													
+131	Tôi đã nói với bạn điều này rồi, nhưng 'Ring of Glory' đã được Thần Ánh sáng, Rugard, trao cho các anh hùng của Cuộc chiến Thần thánh. Ngoài ba anh hùng mà chúng ta đã biết, còn có Kundun Mephis - Great Mage of Arca, và Gaion Kalein - Phó chỉ huy của Liên minh.	132	-1	Tiếp tục													
+132	Nhưng như bạn đã biết, Great Mage Kundun Mephis và Phó chỉ huy Gaion Kalein đã bị vấy bẩn bởi bóng tối, và 'Rings of Glory' của họ đã bị mất.	133	-1	Tiếp tục													
+133	'Ring of Glory' chứa đựng sức mạnh thiêng liêng của Rugard, vì vậy nếu Kundun sử dụng nó với mục đích xấu xa, nó chắc chắn sẽ rất thảm khốc. Đó là lý do tại sao những người bảo vệ của đế chế đã cố gắng rất nhiều để tìm kiếm 'Ring of Glory'.	134	-1	Tiếp tục													
+134	Chúng tôi rất nhẹ nhõm và biết ơn bạn vì đã mang về 'Ring of Glory'. Tôi đã gửi một báo cáo về màn trình diễn của bạn cho 'Mười hai môn đồ của ánh sáng', những người phục vụ Rugard.	134	3	Tiếp tục													
+135	Có một phương pháp chiến đấu được gọi là 'Combo', được truyền lại một cách bí mật trong quân đội của đế chế. Nó chỉ được dạy cho những người đã đào tạo một thời gian dài với tư cách là một Hiệp sĩ kiếm hiệp. 	136	-1	Tiếp tục													
+136	Được rồi. Nhưng để học được Combo, chúng ta cần một viên đá ma thuật đặc biệt gọi là 'Dark Stone'. Bạn phải sử dụng viên đá ma thuật để thay đổi năng lượng chảy trong cơ thể bạn.	137	-1	Sau đó tôi phải làm gì?													
+137	Tôi nghe nói rằng Dark Stone có thể được tìm thấy ở Tarkan hoặc Icarus. Bạn có thể làm việc này nếu bạn có 2 triệu Zen. Bạn có muốn thử?	135	-1	Nghe lại	138	1	Đồng ý	137	2	Hủy							
+138	Vì bạn đã tìm thấy 'Ring of Glory', tôi tin chắc rằng bạn sẽ có thể tìm thấy 'Dark Stone'. Hãy quay lại với tôi khi bạn tìm thấy 'Dark Stone'.	138	2	Kết thúc													
+139	Bạn thực sự đã tìm thấy 'Dark Stone'! Bây giờ, tôi sẽ thay đổi dòng năng lượng trong cơ thể bạn.	140	-1	Tiếp tục													
+140	Thế là xong. Bây giờ tôi sẽ nói cho bạn biết thêm về Combo. Combo là một phương pháp cho phép bạn sử dụng sức mạnh bùng nổ cùng một lúc bằng cách phối hợp nhiều kỹ năng khác nhau theo một mô hình đã định sẵn. 	141	-1	Tiếp tục													
+141	Về thứ tự các kỹ năng, trước tiên bạn phải kích hoạt một kỹ năng vũ khí, sau đó kích hoạt hai kỹ năng thông thường để tạo ra một vụ nổ.	141	3	Bạn đã học được Combo!													
+142	Cảm ơn bạn đã tìm thấy 'Ring of Glory'. Để tỏ lòng biết ơn, tôi muốn cho bạn biết những thông tin hữu ích, vì bạn đã luyện tập rất chăm chỉ để trở thành một Blade Knight...	143	-1	Tiếp tục													
+143	Có phương pháp chiến đấu này được truyền lại bí mật trong quân đội của đế chế. Nó chỉ được dạy cho những người đã đào tạo một thời gian dài với tư cách là một Hiệp sĩ kiếm hiệp.	143	2	Tiếp tục													
+116	Để nhận được toàn bộ sức mạnh, bạn phải đủ điều kiện bằng cách đọc 'Scroll of the Emperor', trong đó có ghi chép lịch sử về vị hoàng đế đầu tiên Muren. Đi tìm 'Sebina' ở Devias.	116	2	Kết thúc													
+117	Bạn chưa có đầy đủ tư cách là một 'Hiệp sĩ kiếm hiệp'. Nhận sức mạnh mới thông qua 'Ring of Glory' trước.	117	2	Kết thúc													
+118	Bạn không có đủ tiền. Bạn có thể làm việc này nếu bạn có 3 triệu Zen.	118	2	Kết thúc													
+119	Bạn không có đủ tiền. Bạn có thể làm việc này nếu bạn có 2 triệu Zen.	119	2	Kết thúc													
+//3차 전직 퀘스트 텍스트 추가(07.08.06 이은관)																	
+166	Bạn vẫn chưa đủ điều kiện. Đi tìm Guard Marlon để đạt đủ điều kiện.	166	2	Kết thúc													
+144	Thần ánh sáng, Rugard, đã giao một sứ mệnh mới. Tuy nhiên, có vẻ như bạn vẫn chưa đủ trình độ. Hãy trở lại khi bạn mạnh mẽ hơn.	144	2	Tôi sẽ trở lại khi tôi mạnh mẽ hơn.													
+145	Thần ánh sáng, Rugard, đã giao một sứ mệnh mới. Tuy nhiên, có vẻ như bạn vẫn chưa đủ trình độ. Vui lòng quay lại sau khi bạn hoàn thành nhiệm vụ trước đó.	145	2	Tôi sẽ quay lại sau khi xong việc.													
+146	Bạn không có đủ tiền. Bạn phải cung cấp 5 triệu Zen cho Rugard nếu bạn muốn nhận nhiệm vụ này.	146	2	Tôi sẽ quay lại khi sẵn sàng.													
+147	Thần ánh sáng, Rugard, đã giao một sứ mệnh mới.	148	-1	Đó là nhiệm vụ gì?													
+148	Rugard đã bảo tôi tìm những anh hùng sẽ thay anh ấy chiến đấu chống lại mối đe dọa mới ở Balgass.	149	-1	Tiếp tục													
+149	Chúng tôi cho rằng Quân đội Balgass đang tấn công Pháo đài Crywolf có thể mang đến những mối đe dọa mới cho lục địa... Nhưng chúng tôi vẫn chưa biết chi tiết.	150	-1	Tiếp tục													
+150	Chúng tôi đang cố gắng hết sức để hiểu yêu cầu của Rugard. Nhưng chúng tôi đang gặp rất nhiều khó khăn do...sự yếu kém của mình.	151	-1	Tiếp tục													
+151	Tôi tin rằng bạn có đủ khả năng để giúp chúng tôi. Bạn vui lòng giúp chúng tôi một tay được không?	147	-1	Nghe lại	152	1	Đồng ý	151	2	Hủy							
+152	Để giúp chúng tôi, bạn phải chiến đấu với Quân đội Balgass... Trước khi bạn đối mặt với sức mạnh của chúng, chúng tôi cần xác nhận rằng bạn đủ mạnh.	153	-1	Tiếp tục													
+153	Vui lòng đánh bại Death Beam Knight, Hell Maine và Dark Phoenix ở Tarkan, Aida và Icarus và mang về 1 bằng chứng cho mỗi quái vật.	153	2	Kết thúc													
+154	Chúc mừng. Bạn đã hoàn thành nhiệm vụ. Tôi sẽ thưởng cho bạn một phần thưởng nhỏ cho sự chăm chỉ của bạn.	155	3	Tiếp tục													
+155	Kundun đã thỏa thuận với Ereshkigal, Nữ hoàng của Pandemonium và triệu hồi Balgass xuống trái đất. Sự tồn tại của nó là một mối đe dọa.	156	-1	Tiếp tục													
+156	Chúng tôi đoán rằng Balgass, người lãnh đạo Quân đội Pandemonium, đang mang đến những mối đe dọa mới cho lục địa.	156	2	Kết thúc													
+157	Bạn không có đủ tiền. Bạn phải đưa ra 7 triệu Zen cho Rugard nếu muốn nhận nhiệm vụ này.	157	2	Tôi sẽ quay lại khi tôi sẵn sàng.													
+158	Chào mừng. Có vẻ như bạn đã sẵn sàng giúp đỡ chúng tôi ngay bây giờ.	159	-1	Bạn cần gì?													
+159	Theo thông tin chúng tôi thu thập được, Balgass đã tạo ra một nơi đặc biệt gọi là 'Doanh trại'. Chúng tôi, Mười hai môn đệ của Rugard, tin rằng 'Doanh trại Balgass' là mối đe dọa mới của chúng tôi.	160	-1	Tiếp tục													
+160	Để tìm hiểu thêm thông tin về 'Doanh trại' và để giảm thiểu mối đe dọa từ những người lính được Balgass huấn luyện, chúng ta phải thâm nhập vào đó.	161	-1	Tiếp tục													
+161	Nhờ sự bảo vệ của Rugard, gần đây chúng tôi đã tìm được cách vào được 'Doanh trại Balgass'. Bạn có sẵn sàng thâm nhập vào doanh trại, đánh bại binh lính và mang về thêm thông tin về nơi này không?	158	-1	Nghe lại	162	1	Đồng ý	161	2	Hủy							
+162	Đi đến nghĩa trang ở phía bắc Crywolf, và bạn sẽ tìm thấy một người lính đang bỏ trốn khỏi Doanh trại của Balgass. Anh ta được trời phú cho trí thông minh nhờ Rugard. Anh ta tự gọi mình là 'Warewolf Quarrel'.	163	-1	Tiếp tục													
+163	Anh ấy sẽ đưa bạn đến đó. Vui lòng xác định các học viên tại Doanh trại của Balgass và giết 20 quái vật mỗi loại. 	163	2	Kết thúc													
+164	Bạn đã hoàn thành nhiệm vụ một cách an toàn. Tôi khen ngợi kỹ năng tuyệt vời và ý chí chiến đấu mạnh mẽ của bạn ngay cả trong những tình huống khó khăn nhất.	165	3	Tiếp tục.													
+165	Những thông tin bạn mang về và những kẻ thù mà bạn đánh bại sẽ giúp mang lại hòa bình cho MU và Crywolf.	165	2	Kết thúc													
+167	Bạn không có đủ tiền. Bạn phải đưa ra 10 triệu Zen cho Rugard nếu muốn nhận nhiệm vụ này.	167	2	I'll come back when I'm ready.													
+168	Sự can đảm của bạn đã cho chúng tôi thấy rằng vẫn còn hy vọng. 	169	-1	Tiếp tục													
+169	Có vẻ như Balgass hiện đang ẩn náu ở đâu đó để hồi phục sau trận chiến. 	170	-1	Tiếp tục													
+170	Để thực hiện nhiệm vụ của Rugard, chúng ta phải tìm ra vị trí chính xác của Balgass và đánh bại những người lính mà hắn đang huấn luyện.	171	-1	Tiếp tục													
+171	Thử thách cuối cùng để thực hiện sứ mệnh của Rugard sẽ khó khăn hơn rất nhiều so với bất cứ điều gì bạn phải đối mặt cho đến nay. Bạn sẽ đồng ý thử nghiệm cuối cùng chứ?	168	-1	Nghe lại	172	1	Đồng ý	171	2	Hủy							
+172	Đi vào bên trong cổng lâu đài ở phía bắc Doanh trại Balgass. Chúng tôi sẽ chuẩn bị để bạn có thể vào.	172	2	Kết thúc													
+173	Chúc mừng! Bạn đã vượt qua thử thách cuối cùng của Rugard. Sự bảo vệ của Rugard sẽ ở bên bạn kể từ bây giờ.	174	3	Tiếp tục													
+174	Nhờ nỗ lực của các bạn, MU và Crywolf sẽ được an toàn trước những mối đe dọa của Balgass trong một thời gian. Tôi khen ngợi kỹ năng của bạn.	174	2	Kết thúc													
+//소환술사 2차 퀘스트 대사 추가(07.11.20 이은관)																	
+90	Bạn đã đọc 'Scroll of the Emperor'. Bạn có biết về thỏa thuận bí mật giữa Muren và Semeden, thủ lĩnh của các Triệu hồi sư? Đổi lại việc không sáp nhập Elbe vào đế chế, Semeden đã hứa với Muren một điều.	91	-1	Tiếp tục													
+91	Anh ấy hứa rằng chừng nào MU còn tồn tại, các Triệu hồi sư sẽ bảo vệ Cổng thứ nguyên. Như một biểu tượng của lời hứa này, Semeden đã trao 'Eye of the Abyss'. Hãy tìm 'Eye of the Abyss', đó là bằng chứng cho lời hứa đó.	92	1	Đồng ý	91	2	Hủy										
+92	Tôi nghe nói rằng 'Eye of the Abyss' có thể được tìm thấy xung quanh Atlans, Lost Tower hoặc Tarkan. Khi bạn tìm thấy 'Eye of the Abyss', hãy mang nó lại cho tôi.	92	2	Kết thúc													
+93	Bạn đã tìm thấy 'Eye of the Abyss'. 'Eye of the Abyss' là một loại vật liệu không thể tìm thấy ở thế giới này, được tạo ra từ sự biến đổi của vật liệu trong quá trình chuyển đổi chiều. Nó chứa đựng những ký ức về thời đại và thế giới trước khi chuyển chiều.	94	-1	Tiếp tục													
+94	Đối với những người quan sát các chiều không gian, 'Eye of the Abyss' là một biểu tượng quan trọng. Bạn, người đã mang theo 'Eye of the Abyss'. Nhân danh Người theo dõi thứ nguyên Semeden, tôi trao cho bạn danh hiệu Bloody Summoner.	94	3	Trở thành Bloody Summoner													
+// 그로우랜서 서클실드 퀘스트 대사 추가(2014-07-08 김의건)																	
+175	Có một phương pháp chiến đấu được gọi là 'Circle Shield', được truyền bí mật cho Đội cận vệ Hoàng gia của Hiệp sĩ Đền thờ. Đó là một kỹ thuật mà chỉ Grow Lancers mới có thể học được. Nếu bạn quan tâm, tôi có thể dạy nó cho bạn.	176	-1	Tiếp tục													
+176	Được rồi. Để học Circle Shield, chúng ta cần một viên đá ma thuật đặc biệt gọi là 'Dark Stone'. Viên đá ma thuật sẽ tăng cường năng lượng cho bạn và tạo ra một dòng năng lượng mới trong cơ thể bạn.	177	-1	Vậy thì tôi sẽ làm gì?													
+177	Tôi nghe nói rằng Dark Stone có thể được tìm thấy ở Tarkan hoặc Icarus. Tôi sẽ giúp bạn nếu bạn trả 2 triệu Zen để tỏ lòng cảm kích. Bạn có muốn thử?	175	-1	Nghe lại	178	1	Đồng ý	177	2	Hủy							
+178	Hãy quay lại với tôi khi bạn tìm thấy 'Dark Stone'.	178	2	Kết thúc													
+179	Bạn thực sự đã tìm thấy 'Dark Stone'! Chà, bây giờ tôi sẽ tăng cường năng lượng trong bạn. Bạn sẽ có thể cảm nhận được một luồng năng lượng mới.	180	-1	Tiếp tục													
+180	Thế là xong. Bây giờ tôi sẽ kể cho bạn biết thêm về Circle Shield. Lá chắn Vòng tròn làm giảm AG của đối thủ. Khi đối thủ đánh bạn, Khiên Vòng tròn của bạn sẽ được kích hoạt ở một tỷ lệ nhất định.	181	-1	Tiếp tục													
+181	Nếu AG của họ giảm, họ sẽ không thể sử dụng một số kỹ năng của mình, vì vậy bạn sẽ có lợi thế. Hãy nhớ rằng Circle Shield chỉ có thể được sử dụng khi bạn trang bị khiên.	181	3	Bạn đã học được Circle Shield!													
+182	Hãy nhớ rằng Circle Shield chỉ có thể được sử dụng khi bạn trang bị khiên. Cầu mong những phước lành của Rugard sẽ ở bên bạn...	182	2	Kết thúc													
+// 4차 - 1 전직 퀘스트 대사 추가																	
+183	Bạn có thể đáp ứng các điều kiện nhưng tôi cần kiểm tra xem bạn có đủ khỏe để sử dụng sức mạnh không.	184	-1	Làm thế nào tôi có thể chứng minh điều đó?													
+184	Đầu tiên, hãy cố gắng giành chiến thắng. Đừng lo lắng vì tôi sẽ chỉ sử dụng một phần sức mạnh của mình để chống lại bạn.	185	1	OK!	184	2	Từ chối.										
+185	Khá tốt. Hãy thể hiện khả năng của bạn trong trận chiến. Hãy bắt đầu nào.	185	4	Kết thúc													
+186	Bạn đã chứng tỏ bản thân trong trận chiến đầu tiên.	187	3	Tiếp tục.													
+187	Tuy nhiên vẫn chưa đủ. Cần tiếp tục thử thách.	187	2	Kết thúc													
+188	Bạn chưa sẵn sàng. Vui lòng quay lại sau.	188	2	Tôi sẽ quay lại sau.													
+// 4차 - 2 전직 퀘스트 대사 추가																	
+189	MU không còn là nơi an toàn Ferea đã được phát hiện và Nixie đang được tái sinh. Những con quái vật hùng mạnh bắt đầu xuất hiện trên khắp MU. Bạn cần chuẩn bị để đối phó với chúng.	190	-1	Bạn đang nói về Deep Dungeon.													
+190	Sự thật là, Deep Dungeon là nơi tôi đã rèn luyện bản thân để trở thành một hiệp sĩ hộ vệ từ rất lâu rồi. Bạn cần đánh bại lũ quái vật tại đây.	191	1	Triệu hồi quái vật!	190	2	Hủy										
+191	Tôi sắp triệu tập những con quái vật từ ngục tối sâu thẳm. Đánh bại 5 Deep Dungeon Skeleton Warriors, 5 Larva và 5 Cyclops. Và bạn phải sống sót trong 5 phút. Tôi chân thành hy vọng bạn sống sót và vượt qua bài kiểm tra cuối cùng. Bây giờ tôi sẽ triệu hồi lũ quái vật.	191	4	Kết thúc													
+192	Bạn làm được rồi. Bạn đã sống sót trước những sinh vật khủng khiếp đó từ ngục tối sâu thẳm.	193	3	Tiếp tục.													
+193	Bây giờ bạn đã hoàn toàn sẵn sàng để làm bài kiểm tra cuối cùng.	193	2	Kết thúc													
+194	Bạn chưa đủ điều kiện. Bạn cần phải thắng trận chiến đầu tiên với tôi.	194	2	Được rồi.													
+// 4차 - 3 전직 퀘스트 대사 추가																	
+195	Đây là bài kiểm tra cuối cùng dành cho bạn. 	196	-1	Vậy tôi nên làm gì.													
+196	Một lần nữa, hãy chiến đấu chống lại tôi và giành chiến thắng. Lần này, bạn phải chiến đấu với tôi đồng thời đánh bại lũ quái vật từ ngục tối sâu.	197	1	Đồng ý	196	2	Hủy										
+197	Bạn đã tập hợp bạn bè của mình chưa? Nếu bạn đã sẵn sàng, chúng ta hãy bắt đầu.	197	4	Kết thúc													
+198	Bạn đã hoàn thành tất cả các bài kiểm tra. Và thể hiện khả năng của bạn. Tôi tin rằng một ngày nào đó bạn có thể trở thành hiệp sĩ hộ mệnh của Lugard, người có thể sát cánh cùng tôi vào một ngày nào đó.	199	3	Tiếp tục.													
+199	Bạn đã vượt qua tất cả các bài kiểm tra và bây giờ bạn đã sẵn sàng sử dụng sức mạnh mới. Tôi khen ngợi kỹ năng của bạn. Vui lòng sử dụng phím tắt [Ctrl+A] để kiểm tra sức mạnh mới của bạn.	199	2	Kết thúc													
+200	Bạn chưa đủ điều kiện. Bạn phải đánh bại lũ quái vật trong ngục tối sâu để có cơ hội chiến đấu với tôi trong trận chiến cuối cùng.	200	2	Được rồi. Tôi sẽ quay lại lần nữa khi tôi sẵn sàng.													
+201	Đó là không đủ tiền. Bạn phải đưa ra 1 triệu Zen cho Lugard nếu muốn nhận nhiệm vụ này.	201	2	Tôi sẽ quay lại lần nữa khi tôi sẵn sàng.													
+//룬마법사 2차 전직 퀘스트 대사 추가		
+95	Bạn đã đọc 'Cuốn sách của Hoàng đế', vì vậy bạn phải biết về 3 báu vật.	82	-1	Tiếp tục.									
+96	Tôi biết bạn muốn trả thù, nhưng hãy cẩn thận vì điều này sẽ rất nguy hiểm. Nếu bạn tìm thấy 'Soul Shard of Wizard', hãy quay lại với nó.	96	2	Tôi sẽ tìm nó.									
+97	Tôi biết bạn sẽ tìm thấy 'Soul Shard of Wizard'. Đây là một viên đá ma thuật tượng trưng cho ý chí mạnh mẽ và được cho là đã được trao cho Muren bởi Etramu như một sự quyết tâm vững chắc.	98	-1	Nói cho tôi biết thêm.									
+98	Với 'Soul Shard of Wizard' này, giờ đây bạn sẽ trở thành "Rune Spell Master".	98	3	Trở thành Rune Spell Master!									
+//슬레이어 2차 전직 퀘스트 대사 추가		
+99	Nếu bạn đã đọc xong 'Cuộn thư của Hoàng đế', hãy đi tìm 'Thanh kiếm gãy' được các Hiệp sĩ bóng đêm của Lorencia tặng cho Muren. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower hoặc Tarkan. 	202	1	Đồng ý																
+202	Tôi biết bạn mạnh mẽ nhưng hãy luôn cẩn thận vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Thanh kiếm gãy', vui lòng mang nó lại cho tôi. 	202	2	Kết thúc.													
+203	Bạn đã tìm thấy 'Thanh kiếm gãy'. 'Thanh kiếm gãy' được cho là có nguồn gốc từ thanh kiếm 'Ngày tận thế' của Muren, mà chính Muren đã phá vỡ sau khi thống nhất lục địa, với hy vọng rằng chiến tranh sẽ không bao giờ xảy ra nữa. 	204	-1	Tiếp tục														
+204	Bây giờ bạn đã tìm thấy 'Thanh kiếm gãy' và chứng minh được ý chí mạnh mẽ của mình, bạn sẽ được gọi là Royal Slayer.	204	3	Trở thành Royal Slayer													
+// 슬레이어 데스모두스 뮨 퀘스트 대사 추가																	
+205	Desmodus đồng hành cùng bạn. Bạn có biết bí mật của nó không? Nếu bạn quan tâm hãy để tôi biết.	206	-1	Tiếp tục.															
+206	Được rồi. Đó là 'cuộc sống phức tạp' được tạo ra bằng công nghệ của Vương quốc Cantur với bạn. Điều đặc biệt ở đây là nó được làm từ đá mana 'Dark Stone'.	207	-1	Tiếp tục												
+207	Chỉ Dark Stone mới có thể tạo ra Desmodus. Bạn có muốn làm một cái nếu bạn muốn?	208	-1	Nếu vậy, tôi cần phải làm gì?												
+208	Tôi nghe nói rằng Dark Stone có thể được tìm thấy ở Tarkan hoặc Icarus. Bạn có thể làm việc này nếu bạn có 2 triệu Zen. Bạn có muốn thử?	205	-1	Nghe lại.	209	1	Đồng ý	208	2	Hủy							
+209	Hãy quay lại với tôi khi bạn tìm thấy 'Dark Stone'.	209	2	Kết thúc													
+210	Bạn thực sự đã tìm thấy 'Dark Stone'! Bây giờ hãy nâng cấp Desmodus.	211	-1	Tiếp tục													
+211	Nó đang chiết xuất 'thuộc tính bóng tối' và 'năng lượng mạnh mẽ' của đá đen và sản xuất nó dưới dạng sự sống thông qua việc tái thiết. Được rồi, bây giờ bạn đã sẵn sàng sử dụng Desmodus mới tạo của mình.	211	3	Đã nhận Desmodus!												
+212	Desmodus cũng có thể tiến hóa. Bạn sẽ tìm ra theo thời gian. Được Rugard ban phúc.	212	2	Kết thúc													
+//건크래셔 2차 전직 퀘스트 대사 추가																	
+213	Nếu bạn đã đọc xong 'Cuộn thư của Hoàng đế', hãy đi tìm 'Thanh kiếm gãy' được các Hiệp sĩ bóng đêm của Lorencia tặng cho Muren. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower hoặc Tarkan.	214	1	Đồng ý													
+214	Tôi biết bạn mạnh mẽ nhưng hãy luôn cẩn thận vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Thanh kiếm gãy', vui lòng mang nó lại cho tôi. 	214	2	Kết thúc														
+215	Bạn đã tìm thấy 'Thanh kiếm gãy'. 'Thanh kiếm gãy' được cho là có nguồn gốc từ thanh kiếm 'Ngày tận thế' của Muren, mà chính Muren đã phá vỡ sau khi thống nhất lục địa, với hy vọng rằng chiến tranh sẽ không bao giờ xảy ra nữa. 	216	-1	Tiếp tục													
+216	Bây giờ bạn đã tìm thấy 'Thanh kiếm gãy' và chứng minh được ý chí mạnh mẽ của mình, bạn sẽ được gọi là Gun Breaker.	216	3	Trở thành Gun Breaker												
+217	Bạn đã đọc 'Cuộn giấy của Hoàng đế'. Vậy bây giờ bạn đã biết ba báu vật mà các anh hùng để lại là gì chưa?	218	1	Đồng ý													
+218	Tôi biết bạn mạnh mẽ nhưng hãy luôn cẩn thận vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Linh hồn của pháp sư', vui lòng mang nó lại cho tôi.	218	2	Kết thúc													
+219	Bạn đã tìm thấy 'Linh hồn của pháp sư'. 'Linh hồn của pháp sư' là một viên đá ma thuật tượng trưng cho tâm trí mạnh mẽ của Pháp sư bóng tối, và người ta nói rằng Etramu đã tặng nó cho Muren như một biểu tượng cho lời thề của anh ấy.	220	-1	Tiếp tục													
+220	Bây giờ bạn đã có 'Linh hồn của pháp sư', tượng trưng cho trí óc mạnh mẽ, bạn sẽ được gọi là Light Master.	220	3	Trở thành Light Master													
+221	Bạn đã tìm thấy 'Linh hồn của Pháp sư'. 'Soul of the Mage' là một viên đá ma thuật tượng trưng cho tâm trí mạnh mẽ của một Dark Mage, và người ta nói rằng Etramu đã dâng nó cho Muren như một biểu tượng cho lời thề của anh ấy.	222	-1	Tiếp tục													
+222	Bây giờ bạn đã có 'Soul of the Mage', tượng trưng cho tâm trí mạnh mẽ, bạn sẽ được gọi là Wo Mage.	222	3	Trở thành Wo Mage.													
+223	Nếu bạn đọc xong 'Scroll of the Emperor', hãy đi tìm 'Broken Sword' đã được trao cho Muren bởi các Hiệp sĩ bóng đêm của Lorencia. Tin đồn nói rằng nó có thể được tìm thấy xung quanh Atlans, Lost Tower, hoặc Tarkan.	224	1	Đồng ý									
+224	Tôi biết bạn rất mạnh mẽ, nhưng hãy luôn cẩn thận, bởi vì nhiệm vụ này có thể nguy hiểm. Khi bạn tìm thấy 'Thanh kiếm bị hỏng', vui lòng mang nó lại cho tôi. 	224	2	Kết thúc									
+225	Bạn đã tìm thấy 'Thanh kiếm bị gãy'. 'Broken Sword' được cho là có nguồn gốc từ thanh kiếm của Muren, 'Apocalypse', thứ mà chính Muren đã phá vỡ sau khi thống nhất lục địa, với hy vọng rằng chiến tranh sẽ không bao giờ xảy ra nữa. 	226	-1	Tiếp tục									
+226	Bây giờ bạn đã tìm thấy 'Broken Sword' và chứng minh được ý chí mạnh mẽ của mình, bạn sẽ được gọi là Mirage Knight.	226	3	Trở thành Mirage Knight									

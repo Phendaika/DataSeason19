@@ -1,0 +1,46 @@
+////////////////////////////////////////////////////////////////////////////////		
+//	[ 버          전 ]	0.0.0.3_1
+//	[ 최종 작업자 ]	노영호
+//	[ 최종 작업일 ]	2014-11-04-11:39:00 AM
+//	[ 내          용 ]	귀걸이용 추가
+//	[ 참          조 ]	클라이언트 전용 스크립트
+////////////////////////////////////////////////////////////////////////////////		
+		
+//SetOption Index	SetOption Name	Operator
+0	"Tăng sức mạnh"	1
+1	"Tăng nhanh nhẹn"	1
+2	"Tăng năng lượng"	1
+3	"Tăng thể lực"	1
+4	"Tăng mệnh lệnh"	1
+5	"Tăng ST tối thiểu"	1
+6	"Tăng ST tối đa"	1
+7	"Tăng ST Phép"	2
+8	"Tăng ST Vật lý"	2
+9	"Tăng tốc độ tấn công"	1
+10	"Tăng phòng thủ"	1
+11	"Tăng HP tối đa"	1
+12	"Tăng Mana tối đa"	1
+13	"Tăng khả năng tự phục hồi AG"	1
+14	"Tăng khả năng tự phục hồi AG"	1
+15	"Tăng tỉ lệ sát thương chí mạng"	2
+16	"Tăng sát thương chí mạng"	1
+17	"Tăng tỉ lệ sát thương hoàn hảo"	2
+18	"Tăng sát thương hoàn hảo"	1
+19	"Tăng sát thương kĩ năng"	1
+20	"Tăng tỉ lệ X2 sát thương"	2
+21	"Bỏ qua phòng thủ"	2
+22	"Tăng phòng thủ khi cầm khiên"	2
+23	"Lực đánh vật lý và phép thuật"	1
+//24	"Healing Power Increase"	0
+//25	"Increased interpersonal defense rate of allies near 6"	0
+//26	"Min Damage Power Increase"	0
+//27	"Triple Damage Chance Increase"	0
+24	"Tăng toàn bộ điểm tiềm năng (C)"	1
+//25	"Phòng thủ cơ bản tăng"	1
+26	"Sát thương tăng"	1
+27	"Sát thương phép tăng"	1
+28	"Sát thương kĩ năng (Mastery) tăng"	1
+29	"Sát thương (Mastery) hoàn hảo tăng"	1
+30	"Sát thương (Mastery) chí mạng tăng"	1
+31	"Sát thương (Mastery) tăng"	1
+end		

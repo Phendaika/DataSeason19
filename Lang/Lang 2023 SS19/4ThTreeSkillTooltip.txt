@@ -1,0 +1,242 @@
+///////////////////////////////////////////////////////////////////////////////////////////////					
+//	[ Text  Version ] 0.0.0.1				
+//	[File Name] 4ThTreeSkillTooltip.txt				
+//	[서버/클라] 클라이언트 전용				
+//	[ 최종 작업자 ] 사재일				
+//	[ 최종 작업일 ] Season12 P.2 시즌 업데?, 2017년 6월 3-0일				
+//	[ 작 업 내 용 ] Season12 P.2 시즌 업데이트				
+///////////////////////////////////////////////////////////////////////////////////////////////					
+// 					
+//Skill Id	Skilldesc (1) 	Skilldesc (2) - 다음등급	Skilldesc Type		
+1001	"Tăng %d sát thương kỹ năng"	"Tăng %d sát thương kỹ năng"	0	//
+1002	"Tăng số lượng dòng DMG#thêm 1"	"null"	-1	//
+1003	"Tăng số lượng dòng DMG#thêm 2"	"null"	-1	//
+1004	"Tăng số lượng dòng DMG#thêm 3"	"null"	-1	//
+1005	"Tăng số lượng dòng DMG#thêm 4"	"null"	-1	//
+1006	"Tăng số lượng dòng DMG#thêm 2"	"null"	-1	//
+1007	"Tăng tỉ lệ xuất hiện#thêm DMG bổ sung: %0.2f%%"	"Tăng tỉ lệ xuất hiện#thêm DMG bổ sung: %0.2f%%"	1	//
+1008	"Tăng %d tốc độ tấn công#của kỹ năng#được liên kết"	"Tăng %d tốc độ tấn công#của kỹ năng#được liên kết"	0	//
+1009	"Tăng %d phạm vi tấn công#của kỹ năng#được liên kết"	"Tăng %d phạm vi tấn công#của kỹ năng#được liên kết"	0	//
+1010	"Thêm DMG lan rộng#cho kỹ năng#được liên kết"	"null"	-1	//
+1011	"Tăng %d phạm vi tấn công#của kỹ năng#được liên kết"	"Tăng %d phạm vi tấn công#của kỹ năng#được liên kết"	0	//
+1012	"Tăng %d đối tượng bị đánh#của kỹ năng#được liên kết"	"Tăng %d đối tượng bị đánh#của kỹ năng#được liên kết"	0	//
+1013	"Tăng %0.2f%% hiệu ứng có lợi"	"Tăng %0.2f%% hiệu ứng có lợi"	1	//
+1014	"Tăng %0.2f%% hiệu ứng có lợi"	"Tăng %0.2f%% hiệu ứng có lợi"	1	//
+1015	"Tăng thời gian hiệu ứng#thêm %d giây"	"Tăng thời gian hiệu ứng#thêm %d giây"	0	//
+1016	"Có thể học được#Iron Defense"	"null"	-1	//
+1017	"Tăng hiệu ứng phòng thủ#của Iron Defense thêm %d"	"Tăng hiệu ứng phòng thủ#của Iron Defense thêm %d"	0	//
+1018	"Giảm %d giây#thời gian hồi chiêu"	"Giảm %d giây#thời gian hồi chiêu"	0	//
+1019	"Xóa thời gian hồi chiêu"	"null"	-1	//
+1020	"Tăng sát thương (Max/Min)#của vũ khí thêm %0.2f%%"	"Tăng sát thương (Max/Min)#của vũ khí thêm %0.2f%%"	1	//
+1021	"Tăng sát thương phép#của vũ khí thêm %0.2f%%"	"Tăng sát thương phép#của vũ khí thêm %0.2f%%"	1	//
+1022	"Thêm hiệu ứng Xuyên Tâm Tiễn#(Penetration Effect)#cho kỹ năng#được liên kết"	"null"	-1	//
+1023	"Thêm %d mũi tên bắn ra#khi sử dụng kỹ năng được liên kết"	"Thêm %d mũi tên bắn ra#khi sử dụng kỹ năng được liên kết"	0	//
+1024	"Khi tấn công bằng#kỹ năng được liên kết#có %0.2f%% cơ hội#tạo ra Poison Magic Circle#gây DMG độc theo thời gian#tối đa 7 đối tượng#trong thời gian 10 giây#hồi chiêu 20 giây"	"%0.2f%% cơ hội#tạo ra Poison Magic Circle"	1	//
+1025	"Khi tấn công bằng#kỹ năng được liên kết#có %0.2f%% cơ hội#tạo ra Chilling Magic Circle##giảm phòng thủ và tốc độ#tối đa 7 đối tượng#trong thời gian 10 giây#hồi chiêu 20 giây"	"%0.2f%% cơ hội#tạo ra Chilling Magic Circle"	1	//
+1026	"Khi tấn công bằng#kỹ năng được liên kết#có %0.2f%% cơ hội#tạo ra Bleeding Magic Circle#thêm DMG chảy máu#tối đa 7 đối tượng#trong thời gian 10 giây#hồi chiêu 20 giây"	"%0.2f%% cơ hội#tạo ra Bleeding Magic Circle"	1	//
+//1027	"When attacking with a chained skill, applies Shock debuff on the target with a %0.2f%% chance, putting it in a shocked state with 10%% chance for 10 seconds."	"Increases the chance to apply Shock debuff by %0.2f%%."	1	//
+1028	"Tăng %d sát thương độc#cho Poison Magic Circle"	"Tăng %d sát thương độc#cho Poison Magic Circle"	0	//
+1029	"Tăng hiệu ứng giảm thủ#của Chilling Magic Circle#thêm %d"	"Tăng hiệu ứng giảm thủ#của Chilling Magic Circle#thêm %d"	0	//
+1030	"Tăng sát thương chảy máu#của Bleeding Magic Circle#thêm %d"	"Tăng sát thương chảy máu#của Bleeding Magic Circle#thêm %d"	0	//
+//1031	"Increases the occurring chance of the Shock status of Shock debuff by %0.2f%%."	"Increases the chance to apply the Shock status of Shock debuff by %0.2f%%."	1	//
+1032	"Tăng thời gian của#Poison Magic Circle#thêm %d giây"	"Tăng thời gian của#Poison Magic Circle#thêm %d giây"	0	//
+1033	"Tăng thời gian của#Chilling Magic Circle#thêm %d giây"	"Tăng thời gian của#Chilling Magic Circle#thêm %d giây"	0	//
+1034	"Tăng thời gian của#Bleeding Magic Circle#thêm %d giây"	"Tăng thời gian của#Bleeding Magic Circle#thêm %d giây"	0	//
+//1035	"Increases the duration of Shock debuff by %d second(s)."	"Increases the duration of Shock debuff by %d second(s)."	0	//
+1036	"Tăng %d sát thương độc#cho Addiction Magic Circle"	"Tăng %d sát thương độc#cho Addiction Magic Circle"	0	//
+1037	"Tăng hiệu ứng#giảm tốc độ đánh#của Freezing Magic Circle#thêm %0.2f%%"	"Tăng hiệu ứng#giảm tốc độ đánh#của Freezing Magic Circle#thêm %0.2f%%"	1	//
+1038	"Tăng sát thương chảy máu#của Haemorrhage Magic Circle#thêm %d"	"Tăng sát thương chảy máu#của Haemorrhage Magic Circle#thêm %d"	0	//
+//1039	"Increases the duration of Stun thêm %d"	"Increases the duration of Stun thêm %d"	0	//
+1040	"Khi tấn công đối tượng#đã bị ảnh hưởng bởi#Poison Magic Circle#Có cơ hội nâng lên#Addiction Magic Circle#Đối tượng bị nhiễm Addiction Magic Circle#nhận gấp đôi DMG độc"	"Tăng %0.2f%% tỉ lệ#nâng lên Addiction Magic Circle"	1	//
+1041	"Khi tấn công đối tượng#đã bị ảnh hưởng bởi#Ice Magic Circle#Có cơ hội nâng lên#Freezing Magic Circle#Đối tượng bị nhiễm#Freezing Magic Circle#bị giảm tốc độ đánh"	"Tăng %0.2f%% tỉ lệ#nâng lên Freezing Magic Circle"	1	//
+1042	"Khi tấn công đối tượng#đã bị ảnh hưởng bởi#Bleeding Magic Circle#Có cơ hội nâng lên#Haemorrhage Magic Circle#Đối tượng bị nhiễm#Haemorrhage Magic Circle#nhận gấp đôi DMG chảy máu"	"Tăng %0.2f%% tỉ lệ#nâng lên Haemorrhage Magic Circle"	1	//
+//1043	"Attacking a target inflicted with Shock debuff with a Shock chain skill has a %0.2f%% chance to enhance the debuff to Stun. "	"Increases the chance to enhance to Stun debuff by %0.2f%%."	1	//
+//1044	"When the target gets a debuff, a maximum debuff effect can be applied with a %0.2f%% chance."	"When the target gets a debuff, a maximum effect can be applied with a %0.2f%% chance."	1	//
+//1045	"When the target gets a debuff, the maximum debuff duration can be increased by 5 seconds with a %0.2f%% chance."	"When the target gets a debuff, the maximum debuff duration can be increased by 5 seconds with a %0.2f%% chance."	1	//
+1046	"Tỉ lệ nâng lên#Addiction Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Addiction Magic Circle#được tăng thêm %0.2f%%"	1	//
+1047	"Tỉ lệ nâng lên#Freezing Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Freezing Magic Circle#được tăng thêm %0.2f%%"	1	//
+1048	"Tỉ lệ nâng lên#Haemorrhage Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Haemorrhage Magic Circle#được tăng thêm %0.2f%%"	1	//
+//1049	"Additionally increases the chance to apply Shock by %0.2f%%."	"Increases the chance to apply Shock by %0.2f%%."	1	//
+1050	"Tăng sát thương độc#của Poison Magic Circle#thêm %d"	"Tăng sát thương độc#của Poison Magic Circle#thêm %d"	0	//
+1051	"Tăng phòng thủ bị giảm#bởi Chilling Magic Circle#thêm %d"	"Tăng phòng thủ bị giảm#bởi Chilling Magic Circle#thêm %d"	0	//
+1052	"Tăng DMG chảy máu#của Bleeding Magic Circle#thêm %d"	"Tăng DMG chảy máu#của Bleeding Magic Circle#thêm %d"	0	//
+//1053	"Additionally increases the occurring chance of the Shock status during Shock debuff by %0.2f%%."	"Increases the occurring chance of the Shock status during Shock debuff by %0.2f%%."	1	//
+1054	"Tăng thời gian tồn tại#của Poison Magic Circle#thêm %d giây"	"Tăng thời gian tồn tại#của Poison Magic Circle#thêm %d giây"	0	//
+1055	"Tăng thời gian tồn tại#của Ice Magic Circle#thêm %d giây"	"Tăng thời gian tồn tại#của Ice Magic Circle#thêm %d giây"	0	//
+1056	"Tăng thời gian tồn tại#của Haemorrhage Magic Circle#thêm %d giây"	"Tăng thời gian tồn tại#của Haemorrhage Magic Circle#thêm %d giây"	0	//
+//1057	"Additionally increases the duration of Shock debuff by %d second(s)."	"Increases the duration of Shock debuff by %d second(s)."	0	//
+1058	"Tăng sát thương độc#của Addiction Magic Circle#thêm %d"	"Tăng sát thương độc#của Addiction Magic Circle#thêm %d"	0	//
+1059	"Tăng tốc độ đánh bị giảm#bởi Freezing Magic Circle#thêm %0.2f%%"	"Tăng tốc độ đánh bị giảm#bởi Freezing Magic Circle#thêm %0.2f%%"	1	//
+1060	"Tăng DMG chảy máu#của Haemorrhage Magic Circle#thêm %d"	"Tăng DMG chảy máu#của Haemorrhage Magic Circle#thêm %d"	0	//
+//1061	"Additionally increases the duration of Stun thêm %d"	"Increases the duration of Stun thêm %d"	0	//
+1062	"Tỉ lệ nâng lên#Addiction Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Addiction Magic Circle#được tăng thêm %0.2f%%"	1	//
+1063	"Tỉ lệ nâng lên#Freezing Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Freezing Magic Circle#được tăng thêm %0.2f%%"	1	//
+1064	"Tỉ lệ nâng lên#Haemorrhage Magic Circle#được tăng thêm %0.2f%%"	"Tỉ lệ nâng lên#Haemorrhage Magic Circle#được tăng thêm %0.2f%%"	1	//
+//1065	"Additionally increases the chance to enhance to Stun by %0.2f%%."	"Increases the chance to enhance to Stun by %0.2f%%."	1	//
+//1066	"When the target gets a debuff, a maximum effect can be applied with a %0.2f%% chance."	"When the target gets a debuff, a maximum effect can be applied with a %0.2f%% chance."	1	//
+//1067	"When the target gets a debuff, the maximum debuff duration can be increased by 5 seconds with a %0.2f%% chance."	"When the target gets a debuff, the maximum debuff duration can be increased by 5 seconds with a %0.2f%% chance."	1	//
+1068	"Tăng sát thương#Strike of Destruction#thêm %d"	"Tăng sát thương#Strike of Destruction#thêm %d"	0	//
+1069	"Tăng sát thương#Anger Blow#thêm %d"	"Tăng sát thương#Anger Blow#thêm %d"	0	//
+1070	"Tăng sát thương#Blood Storm#thêm %d"	"Tăng sát thương#Blood Storm#thêm %d"	0	//
+1071	"Tăng sát thương#Blow#thêm %d"	"Tăng sát thương#Blow#thêm %d"	0	//
+1072	"Tăng sát thương#Fire Blow#thêm %d"	"Tăng sát thương#Fire Blow#thêm %d"	0	//
+1073	"Tăng lượng HP sau khi#sử dụng Greater Fortitude#thêm %d"	"Tăng lượng HP sau khi#sử dụng Greater Fortitude#thêm %d"	0	//
+1074	"Tăng sát thương#Flame#thêm %d"	"Tăng sát thương#Flame#thêm %d"	0	//
+1075	"Tăng sát thương#Meteor Strike#thêm %d"	"Tăng sát thương#Meteor Strike#thêm %d"	0	//
+1076	"Tăng sát thương#Meteor Storm#thêm %d"	"Tăng sát thương#Meteor Storm#thêm %d"	0	//
+1077	"Tăng sát thương#Nova#thêm %d"	"Tăng sát thương#Nova#thêm %d"	0	//
+1078	"Tăng sát thương#Evil Spirit#thêm %d"	"Tăng sát thương#Evil Spirit#thêm %d"	0	//
+1079	"Tăng sát thương#Soul Seeker#thêm %d"	"Tăng sát thương#Soul Seeker#thêm %d"	0	//
+1080	"Tăng lượng giảm DMG#của Soul Barrier#thêm %d"	"Tăng lượng giảm DMG#của Soul Barrier#thêm %d"	0	//
+1081	"Tăng sát thương#Triple Shot#thêm %d"	"Tăng sát thương#Triple Shot#thêm %d"	0	//
+1082	"Tăng sát thương#Poison Arrow#thêm %d"	"Tăng sát thương#Poison Arrow#thêm %d"	0	//
+1083	"Tăng sát thương#Multi-shot#thêm %d"	"Tăng sát thương#Multi-shot#thêm %d"	0	//
+1084	"Tăng sát thương#Ice Arrow#thêm %d"	"Tăng sát thương#Ice Arrow#thêm %d"	0	//
+1085	"Tăng sát thương#Focus Shot#thêm %d"	"Tăng sát thương#Focus Shot#thêm %d"	0	//
+1086	"Tăng sát thương#Inferno#thêm %d"	"Tăng sát thương#Inferno#thêm %d"	0	//
+1087	"Tăng sát thương#Gigantic Storm#thêm %d"	"Tăng sát thương#Gigantic Storm#thêm %d"	0	//
+1088	"Tăng sát thương#Evil Spirit#thêm %d"	"Tăng sát thương#Evil Spirit#thêm %d"	0	//
+1089	"Tăng sát thương#Dark Blast#thêm %d"	"Tăng sát thương#Dark Blast#thêm %d"	0	//
+1090	"Tăng sát thương#Meteor Strike#thêm %d"	"Tăng sát thương#Meteor Strike#thêm %d"	0	//
+1091	"Tăng sát thương#Power Slash#thêm %d"	"Tăng sát thương#Power Slash#thêm %d"	0	//
+1092	"Tăng sát thương#Fire Slash#thêm %d"	"Tăng sát thương#Fire Slash#thêm %d"	0	//
+1093	"Tăng sát thương#Flame Strike#thêm %d"	"Tăng sát thương#Flame Strike#thêm %d"	0	//
+1094	"Tăng sát thương#Fire Blood#thêm %d"	"Tăng sát thương#Fire Blood#thêm %d"	0	//
+1095	"Tăng sát thương#Ice Blood#thêm %d"	"Tăng sát thương#Ice Blood#thêm %d"	0	//
+1096	"Tăng sát thương#FireBurst#thêm %d"	"Tăng sát thương#FireBurst#thêm %d"	0	//
+1097	"Tăng sát thương#Fire Scream#thêm %d"	"Tăng sát thương#Fire Scream#thêm %d"	0	//
+1098	"Tăng sát thương#Chaotic Diseier#thêm %d"	"Tăng sát thương#Chaotic Diseier#thêm %d"	0	//
+1099	"Tăng sát thương#Wind Soul#thêm %d"	"Tăng sát thương#Wind Soul#thêm %d"	0	//
+1100	"Tăng sát thương#Electric Spark#thêm %d"	"Tăng sát thương#Electric Spark#thêm %d"	0	//
+1101	"Tăng sát thương#Drain Life#thêm %d"	"Tăng sát thương#Drain Life#thêm %d"	0	//
+1102	"Tăng sát thương#Fire Beast#thêm %d"	"Tăng sát thương#Fire Beast#thêm %d"	0	//
+1103	"Tăng sát thương#Lightning Shock#thêm %d"	"Tăng sát thương#Lightning Shock#thêm %d"	0	//
+1104	"Tăng sát thương#Chain Lightning#thêm %d"	"Tăng sát thương#Chain Lightning#thêm %d"	0	//
+1105	"Tăng sát thương#Aqua Beast#thêm %d"	"Tăng sát thương#Aqua Beast#thêm %d"	0	//
+1106	"Tăng lượng sát thương#gia tăng bởi Berserker#thêm %d"	"Tăng lượng sát thương#gia tăng bởi Berserker#thêm %d"	0	//
+1107	"Giảm mức giảm phòng thủ#của Berserker#thêm %d"	"Giảm mức giảm phòng thủ#của Berserker#thêm %d"	0	//
+1108	"Tăng sát thương#Dragon Slasher#thêm %d"	"Tăng sát thương#Dragon Slasher#thêm %d"	0	//
+1109	"Tăng sát thương#Phoenix Shot#thêm %d"	"Tăng sát thương#Phoenix Shot#thêm %d"	0	//
+1110	"Tăng sát thương#Dark Phoenix Shot#thêm %d"	"Tăng sát thương#Dark Phoenix Shot#thêm %d"	0	//
+1111	"Tăng sát thương#Dragon Roar#thêm %d"	"Tăng sát thương#Dragon Roar#thêm %d"	0	//
+1112	"Tăng sát thương#Chain Drive#thêm %d"	"Tăng sát thương#Chain Drive#thêm %d"	0	//
+1113	"Tăng sát thương#Dark Side#thêm %d"	"Tăng sát thương#Dark Side#thêm %d"	0	//
+1114	"Tăng lượng HP#sau khi buff#thêm %d"	"Tăng lượng HP#sau khi buff#thêm %d"	0	//
+1115	"Tăng sát thương#Spin Step#thêm %d"	"Tăng sát thương#Spin Step#thêm %d"	0	//
+1116	"Tăng sát thương#Harsh Strike#thêm %d"	"Tăng sát thương#Harsh Strike#thêm %d"	0	//
+1117	"Tăng sát thương#Magic Pin#thêm %d"	"Tăng sát thương#Magic Pin#thêm %d"	0	//
+1118	"Tăng sát thương#Breche#thêm %d"	"Tăng sát thương#Breche#thêm %d"	0	//
+1119	"Tăng sát thương#Shining Peak#thêm %d"	"Tăng sát thương#Shining Peak#thêm %d"	0	//
+1120	"Tăng sát thương#Wrath#thêm %d"	"Tăng sát thương#Wrath#thêm %d"	0	//
+1121	"Giảm mức giảm phòng thủ#sau khi buff Wrath#thêm %d"	"Giảm mức giảm phòng thủ#sau khi buff Wrath#thêm %d"	0	//
+1122	"Giảm %0.2f%% tỉ lệ SD#của đối tượng khi tấn công"	"Giảm %0.2f%% tỉ lệ SD#của đối tượng khi tấn công"	1	//
+1123	"Tăng %d SD"	"Tăng %d SD"	0	//
+1124	"Tăng lượng giảm SD#khi bị tấn công"	"Tăng lượng giảm SD#khi bị tấn công"	0	//
+1125	"Áp dụng một debuff cao hơn#vào % đối tượng#khi sử dụng Poison Storm#lên đối tượng đang nhiễm độc#(Normal > Poison#Poison > Addiction)"	"null"	-1	//
+1126	"Áp dụng một debuff cao hơn#vào % đối tượng#khi sử dụng Frozen Slayer#lên đối tượng đang nhiễm băng#(Normal > Ice#Ice > Freezing)"	"null"	-1	//
+1127	"Áp dụng một debuff cao hơn#vào % đối tượng#khi sử dụng Bloodying Hit#lên đối tượng đang chảy máu#(Normal > Haemorrhage# Haemorrhage > Extensive Haemorrhage"	"null"	-1	//
+//1128	"Using Stun Boom on the target with Stun applies the Stun explosion DMG and stuns the target for 2 seconds."	"null"	-1	//
+1129	"Tăng sát thương nổ#của Poison Storm#thêm %d"	"Tăng sát thương#Poison Storm#thêm %d"	0	//
+1130	"Tăng sát thương nổ#của Frozen Slayer#thêm %d"	"Tăng sát thương#Frozen Slayer#thêm %d"	0	//
+1131	"Tăng sát thương nổ#của Bloodying Hit#thêm %d"	"Tăng sát thương#Bloodying Hit#thêm %d"	0	//
+//1132	"Increases the explosion DMG of Stun Boom#thêm %d"	"Tăng sát thương#Stun Boom#thêm %d"	0	//
+1133	"Tăng số mục tiêu#của Poison Storm thêm %d"	"null"	0	//
+1134	"Tăng sát thương lan tỏa#của Frozen Slayer thêm %0.2f%%"	"null"	1	//
+1135	"Tăng %0.2f%% hiệu ứng#giảm phòng thủ#của Bloodying Hit"	"null"	1	//
+//1136	"Increases the duration of the stun effect of Stun Boom#thêm %d"	"null"	0	//
+1137	"Tăng lượng HP thêm %d"	"Tăng lượng HP thêm %d"	0	//
+1138	"Tăng %d điểm tiềm năng (C)#để tăng vào chỉ số mong muốn#(Điểm xanh)"	"Tăng %d điểm tiềm năng (C)"	0	//
+1139	"Tăng %d phòng thủ cơ bản"	"Tăng %d phòng thủ cơ bản"	0	//
+1140	"Tăng %d phòng thủ của cánh#khi đeo cánh cấp 4"	"Tăng %d phòng thủ của cánh#khi đeo cánh cấp 4"	0	//
+1141	"Tăng %d sát thương vật lý"	"Tăng %d sát thương vật lý"	0	//
+1142	"Tăng %d sát thương phép"	"Tăng %d sát thương phép"	0	//
+1143	"Tăng %d điểm tiềm năng (C)#để tăng vào chỉ số mong muốn#(Điểm xanh)"	"Tăng %d điểm tiềm năng (C)"	0	//
+1144	"Tăng %d sát thương kỹ năng"	"Tăng %d sát thương kỹ năng"	0	//
+1145	"Tăng %d sát thương của cánh#khi đeo cánh cấp 4"	"Tăng %d sát thương của cánh#khi đeo cánh cấp 4"	0	//
+1146	"Tăng %d#sát thương phép và vật lý"	"Tăng %d#sát thương phép và vật lý"	0	//
+1147	"Tăng sát thương#Spirit Hook#thêm %d"	"Tăng sát thương#Spirit Hook#thêm %d"	0	//
+1148	"Tăng sát thương#Magic Arrow#thêm %d"	"Tăng sát thương#Maggic Arrow#thêm %d"	0	//
+1149	"Tăng sát thương#Plasma Ball#thêm %d"	"Tăng sát thương#Plasma Ball#thêm %d"	0	//
+1150	"Tăng sát thương#Lightning Storm#thêm %d"	"Tăng sát thương#Lightning Storm#thêm %d"	0	//
+1151	"Giảm tốc độ bay và#khoảng cách của Plasma Ball#(Thời gian tồn tại giữ nguyên)"	"null"	-1	//
+1152	"Tăng tốc độ đánh#của Plasma Ball."	"null"	-1	//
+1153	"Tăng độ rộng của#sát thương lan tỏa#thêm %d ô"	"null"	0	//
+1154	"Tăng số mục tiêu của#sát thương lan tỏa#thêm %d"	"null"	0	//
+1155	"Tăng sát thương#Death Scythe#thêm %d"	"Tăng sát thương#Death Scythe#thêm %d"	0	//
+1156	"Tăng sát thương tối thiểu#của vũ khí thêm %0.2f%%"	"Tăng sát thương tối thiểu#của vũ khí thêm %0.2f%%"	1	//
+1157	"Lực đánh phép/nguyền rủa#tăng thêm %d"	"Lực đánh phép/nguyền rủa#tăng thêm %d"	0	//
+1158	"Tăng sát thương#Sword Ineria#thêm %d"	"Tăng sát thương#Sword Ineria#thêm %d"	0
+1159	"Tăng sát thương#Bat Flock#thêm %d"	"Tăng sát thương#Bat Flock#thêm %d"	0
+1160	"Tăng sát thương Pierce#thêm %d"	"Tăng sát thương Pierce#thêm %d"	0
+1166	"Tăng số mục tiêu của#Poison Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"맹독 디버프 타겟 증가"
+1167	"Tăng số mục tiêu của#Addiction Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"중독 디버프 타겟 증가"
+1168	"Tăng số mục tiêu của#Haemorrhage Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"출혈 디버프 타겟 증가"
+1169	"Tăng số mục tiêu của#Extensive Haemorrhage Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"과다출혈 디버프 타겟 증가"
+1170	"Tăng số mục tiêu của#Ice Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"빙결 디버프 타겟 증가"
+1171	"Tăng số mục tiêu của#Freezing Magic Circle#thêm %d"	"Tăng số mục tiêu của#Poison Magic Circle#thêm 2"	0	//	"동결 디버프 타겟 증가"
+1172	"Tăng phạm vi#Poison Magic Circle#thêm %d"	"Tăng phạm vi#Poison Magic Circle#thêm 2"	0	//	"맹독 디버프 범위 증가"
+//1173	"Addiction Magic Circle range is increased#thêm %d"	"Increases Addiction Magic Circle range by 2."	0	//	"중독 디버프 범위 증가"
+1174	"Tăng phạm vi#Haemorrhage Magic Circle#thêm %d"	"Tăng phạm vi#Haemorrhage Magic Circle#thêm 2"	0	//	"출혈 디버프 범위 증가"
+//1175	"Extensive Haemorrhage Magic Circle range is increased#thêm %d"	"Increases Extensive Haemorrhage Magic Circle range by 2."	0	//	"과다출혈 디버프 범위 증가"
+1176	"Tăng phạm vi#Ice Magic Circle#thêm %d"	"Tăng phạm vi#Ice Magic Circle#thêm 2"	0	//	"빙결 디버프 범위 증가"
+//1177	"Freezing Magic Circle range is increased#thêm %d"	"Increases Freezing Magic Circle range by 2."	0	//	"동결 디버프 범위 증가"
+1178	"Tăng tỉ lệ thành công#của Poison Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Poison Debuff#thêm %d"	0	//	"맹독 디버프 성공율 증가"
+1179	"Tăng tỉ lệ thành công#của Addiction Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Addiction Debuff#thêm %d"	0	//	"중독 디버프 성공율 증가"
+1180	"Tăng tỉ lệ thành công#của Haemorrhage Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Haemorrhage Debuff#thêm %d"	0	//	"출혈 디버프 성공율 증가"
+1181	"Tăng tỉ lệ thành công#của Extensive Haemorrhage#Debuff thêm %d"	"Tăng tỉ lệ thành công#của Extensive Haemorrhage#Debuff thêm %d"	0	//	"과다출혈 디버프 성공율 증가"
+1182	"Tăng tỉ lệ thành công#của Ice Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Ice Debuff#thêm %d"	0	//	"빙결 디버프 성공율 증가"
+1183	"Tăng tỉ lệ thành công#của Freezing Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Freezing Debuff#thêm %d"	0	//	"동결 디버프 성공율 증가"
+1184	"Tăng tỉ lệ thành công#của Poison Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Poison Debuff#thêm %d"	0	//	"맹독 디버프 성공율 추가 증가"
+1185	"Tăng tỉ lệ thành công#của Addiction Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Addiction Debuff#thêm %d"	0	//	"중독 디버프 성공율 추가 증가"
+1186	"Tăng tỉ lệ thành công#của Haemorrhage Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Haemorrhage Debuff#thêm %d"	0	//	"출혈 디버프 성공율 추가 증가"
+1187	"Tăng tỉ lệ thành công#của Extensive Haemorrhage#Debuff thêm %d"	"Tăng tỉ lệ thành công#của Extensive Haemorrhage#Debuff thêm %d"	0	//	"과다출혈 디버프 성공율 추가 증가"
+1188	"Tăng tỉ lệ thành công#của Ice Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Ice Debuff#thêm %d"	0	//	"빙결 디버프 성공율 추가 증가"
+1189	"Tăng tỉ lệ thành công#của Freezing Debuff#thêm %d"	"Tăng tỉ lệ thành công#của Freezing Debuff#thêm %d"	0	//	"동결 디버프 성공율 추가 증가"
+1190	"Tăng số mục tiêu#bị ảnh hưởng bởi#Poison/Addiction debuff#thêm %d"	"Tăng số mục tiêu#bị ảnh hưởng bởi#Poison/Addiction debuff#thêm 2"	0	//	"맹독/중독 디버프 타겟 증가"
+1191	"Tăng số mục tiêu#bị ảnh hưởng bởi#Haemorrhage/Extensive Haemorrhage#debuff thêm %d"	"Tăng số mục tiêu#bị ảnh hưởng bởi#Haemorrhage/Extensive Haemorrhage#debuff thêm 2"	0	//	"출혈/과다출혈 디버프 타겟 증가"
+1192	"Tăng số mục tiêu#bị ảnh hưởng bởi#Ice/Freezing debuff#thêm %d"	"Tăng số mục tiêu#bị ảnh hưởng bởi#Ice/Freezing debuff#thêm 2"	0	//	"빙결/동결 디버프 타겟 증가"
+1193	"Tăng %d sát thương phép#khi sử dụng Wing4"	"Tăng %d sát thương phép#khi sử dụng Wing4"	0	//	"4차 날개/망토 마력 증가"
+1194	"Tăng %d sát thương#và phép thuật#khi sử dụng Wing4"	"Tăng %d sát thương#và phép thuật#khi sử dụng Wing4"	0	//	"4차 날개/망토 공격력/마력 증가"
+1195	"Tăng %d sát thương phép#và nguyền rủa#khi sử dụng Wing4"	"Tăng %d sát thương phép#và nguyền rủa#khi sử dụng Wing4"	0	//	"4차 날개/망토 마력/저주력 증가"
+1196	"Tăng sát thương nổ#của Poison Storm#thêm %d"	"Tăng sát thương nổ#của Poison Storm#thêm %d"	0	//	"포이즌스톰 데미지 추가 증가"
+1197	"Tăng sát thương nổ#của Frozen Slayer#thêm %d"	"Tăng sát thương nổ#của Frozen Slayer#thêm %d"	0	//	"프로즌슬레어 데미지 추가 증가"
+1198	"Tăng sát thương nổ#của Bloodying Hit#thêm %d"	"Tăng sát thương nổ#của Bloodying Hit#thêm %d"	0	//	"블러딩히트 데미지 추가 증가"
+1199	"Tăng phạm vi nổ#của Poison Storm#thêm %d ô"	"Tăng phạm vi nổ#của Poison Storm#thêm 2 ô"	0	//	"포이즌스톰 범위 효과"
+1200	"Tăng phạm vi nổ#của Frozen Slayer#thêm %d ô"	"Tăng phạm vi nổ#của Frozen Slayer#thêm 2 ô"	0	//	"프로즌슬레어 범위 효과"
+1201	"Tăng phạm vi nổ#của Bloodying Hit#thêm %d ô"	"Tăng phạm vi nổ#của Bloodying Hit#thêm 2 ô"	0	//	"블러딩히트 범위 효과"
+1202	"Tăng sát thương#Strike of Destruction#thêm %d"	"Tăng sát thương#Strike of Destruction#thêm %d"	0
+1203	"Tăng sát thương#Sword Blows#thêm %d"	"Tăng sát thương#Sword Blows#thêm %d"	0
+1204	"Tăng %d phòng thủ cơ bản#khi sử dụng Solid Protection"	"Phòng thủ tăng %d"	0
+1205	"Tăng %d HP tối đa#khi sử dụng Solid Protection"	"HP tăng %d"	0
+1206	"Tăng %d sát thương#của thành viên nhóm#khi sử dụng Solid Protection"	"Sát thương tăng %d"	0
+1207	"Tăng %0.2f%% tỉ lệ#chuyển đổi HP#khi sử dụng Solid Protection"	"Tỉ lệ chuyển đổi tăng %0.2f%"	1
+1208	"Lượng sát thương nhận hộ#tăng %0.2f%%#khi sử dụng Solid Protection"	"Lượng sát thương nhận hộ#tăng %0.2f%%#khi sử dụng Solid Protection"	1
+1209	"Tăng %d phòng thủ#cho thành viên nhóm#khi sử dụng Solid Protection"	"Phòng thủ nhóm tăng %d"	0
+1210	"Tăng %d phòng thủ khiên#khi sử dụng Solid Protection"	"Phòng thủ khiên tăng %d"	0
+1211	"Tăng sát thương#Dark Plasma#thêm %d"	"Tăng sát thương#Dark Plasma#thêm %d"	0
+1212	"Tăng sát thương#Ice Blast#thêm %d"	"Tăng sát thương#Ice Blast#thêm %d"	0
+1213	"Tăng sát thương#Burst Flare#thêm %d"	"Tăng sát thương#Burst Flare#thêm %d"	0
+1214	"Tăng sát thương#Chaos Blade#thêm %d"	"Tăng sát thương#Chaos Blade#thêm %d"	0
+1215	"Tăng sát thương#Havok Spear#thêm %d"	"Tăng sát thương#Havok Spear#thêm %d"	0
+1216	"Tăng sát thương#Spear Storm#thêm %d"	"Tăng sát thương#Spear Storm#thêm %d"	0	
+1217	"Tăng sát thương#Marvel Burst#thêm %d"	"Tăng sát thương#Marvel Burst#thêm %d"	0	
+1218	"Tăng sát thương#Marvel Unleashed Marble#thêm %d"	"Tăng sát thương#Marvel Unleashed Marble#thêm %d"	0	
+1219	"Tăng sát thương#Ultimate Force#thêm %d"	"Tăng sát thương#Ultimate Force#thêm %d"	0	
+1220	"Tăng sát thương#Shining Bird#thêm %d"	"Tăng sát thương#Shining Bird#thêm %d"	0	
+1221	"Tăng sát thương#SDragon Violent#thêm %d"	"Tăng sát thương#SDragon Violent#thêm %d"	0	
+1222	"Tăng sát thương#Raining Arrow#thêm %d"	"Tăng sát thương#Raining Arrow#thêm %d"	0	
+1223	"Tăng sát thương#Holy Bolt#thêm %d"	"Tăng sát thương#Holy Bolt#thêm %d"	0	
+1224	"Tăng %d sát thương thuộc tính."	"Tăng %d sát thương thuộc tính."	0	
+1225	"Tăng %d phòng thủ thuộc tính."	"Tăng %d phòng thủ thuộc tính."	0	
+1226	"Tăng %d khả năng hồi máu."	"Tăng %d khả năng hồi máu."	0	
+1227	"Tăng %d khả năng hồi máu cho nhóm."	"Tăng %d khả năng hồi máu cho nhóm."	0	
+1228	"Tăng %d khả năng buff DMG."	"Tăng %d khả năng buff DMG."	0	
+1229	"Tăng %d khả năng buff Thủ"	"Tăng %d khả năng buff Thủ"	0	
+1230	"Tăng %d hiệu ứng tăng tiềm năng (C)#của kĩ năng Bless."	"Tăng %d hiệu ứng tăng tiềm năng (C)#của kĩ năng Bless."	0	
+1231	"Tăng %d sát thương#Charge Slash"	"Tăng %d sát thương#Charge Slash"	0
+1232	"Tăng %d sát thương#Wind Glaive"	"Tăng %d sát thương#Wind Glaive"	0
+1233	"Tăng %d sát thương#Blade Storm"	"Tăng %d sát thương#Blade Storm"	0
+1235	"Tăng %d sát thương Oversting"	"Tăng %d sát thương Oversting"	0
+1236	"Tăng %d sát thương Wildbreath"	"Tăng %d sát thương Wildbreath"	0
+
+end
